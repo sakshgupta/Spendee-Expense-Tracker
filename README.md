@@ -11,6 +11,9 @@
 
 The aim of this project was to organise and keep track of expenses and incoming money within an small organisation or for personal purpose.
 
+<img src="./public/assets/img/Home.png">
+<br></br>
+
 ### `npm start`
 
 Runs the app in the development mode.\
