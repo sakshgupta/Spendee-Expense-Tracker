@@ -46,7 +46,7 @@ function About() {
                                 </Link>
                             </div>
                         </div>
-                        <Link to="login.html" className="nav__link">
+                        <Link to="/login" className="nav__link">
                             <i className="bx bx-log-out nav__icon" />
                             <span className="nav__name">Log Out</span>
                         </Link>

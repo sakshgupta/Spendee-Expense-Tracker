@@ -78,7 +78,7 @@ function History() {
                     </div>
                     <div className="col-auto col-sm-12 d-flex flex-column justify-content-center align-items-center">
                         <div className="d-flex align-items-center">
-                            <i className="fas fa-dollar-sign fa-xs mr-1 " style={{ fontSize: '1.5rem'}}/>
+                            <i className="fas fa-rupee-sign fa-xs mr-1 " style={{ fontSize: '1.5rem'}}/>
                             <span style={{ fontSize: '2rem', fontWeight: 500 }}>6500</span>
                         </div>
                         <div>
@@ -96,7 +96,7 @@ function History() {
                     </div>
                     <div className="col-auto col-sm-12 d-flex flex-column justify-content-center align-items-center">
                         <div className="d-flex align-items-center">
-                            <i className="fas fa-dollar-sign fa-xs mr-1" style={{ fontSize: '1.5rem'}}/>
+                            <i className="fas fa-rupee-sign fa-xs mr-1" style={{ fontSize: '1.5rem'}}/>
                             <span style={{ fontSize: '2rem', fontWeight: 500 }}>500</span>
                         </div>
                         <div>
@@ -114,7 +114,7 @@ function History() {
                     </div>
                     <div className="col-auto col-sm-12 d-flex flex-column justify-content-center align-items-center">
                         <div className="d-flex align-items-center">
-                            <i className="fas fa-dollar-sign fa-xs mr-1" style={{ fontSize: '1.5rem'}}/>
+                            <i className="fas fa-rupee-sign fa-xs mr-1" style={{ fontSize: '1.5rem'}}/>
                             <span style={{ fontSize: '2rem', fontWeight: 500 }}>5600</span>
                         </div>
                         <div>

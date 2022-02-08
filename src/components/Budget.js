@@ -12,7 +12,7 @@ function Budget() {
                     </div>
                     <div className="col-auto col-sm-12 d-flex flex-column justify-content-center align-items-center">
                         <div className="d-flex align-items-center">
-                            <i className="fas fa-dollar-sign fa-xs mr-1 " />
+                            <i className="fas fa-rupee-sign fa-xs mr-1 " />
                             <span style={{ fontWeight: 500 }}>-1,000</span>
                         </div>
                         <div>
@@ -30,7 +30,7 @@ function Budget() {
                     </div>
                     <div className="col-auto col-sm-12 d-flex flex-column justify-content-center align-items-center">
                         <div className="d-flex align-items-center">
-                            <i className="fas fa-dollar-sign fa-xs mr-1" />
+                            <i className="fas fa-rupee-sign fa-xs mr-1" />
                             <span style={{ fontWeight: 500 }}>Gareeb</span>
                         </div>
                         <div>
@@ -48,7 +48,7 @@ function Budget() {
                     </div>
                     <div className="col-auto col-sm-12 d-flex flex-column justify-content-center align-items-center">
                         <div className="d-flex align-items-center">
-                            <i className="fas fa-dollar-sign fa-xs mr-1" />
+                            <i className="fas fa-rupee-sign fa-xs mr-1" />
                             <span style={{ fontWeight: 500 }}>0</span>
                         </div>
                         <div>
@@ -79,7 +79,7 @@ function Budget() {
                             <h6 style={{ fontSize: '1rem', fontWeight: 600 }}>Monthly Limit</h6>
                             <div className="d-flex justify-content-center">
                                 <div>
-                                    <span>$10,000</span>
+                                    <span>₹10,000</span>
                                 </div>
                                 {/* Button trigger modal */}
                                 <div className="d-flex align-items-center">
@@ -117,7 +117,7 @@ function Budget() {
                         </div>
                         <div className="remaining-container px-2 pb-3 d-flex flex-column align-items-center">
                             <h6 style={{ fontSize: '1rem', fontWeight: 600 }}>Remaining</h6>
-                            <span>$9,000</span>
+                            <span>₹9,000</span>
                         </div>
                     </div>
                 </div>

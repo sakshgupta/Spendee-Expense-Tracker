@@ -11,12 +11,12 @@ function Record() {
                     <i className="fas fa-grin-beam fa-2x record-icon" />
                 </div>
                 <div className="col-3 pl-3">
-                    <h5 className="record-name">Bob</h5>
+                    <h5 className="record-name">Movie</h5>
                     <small>2022-02-01</small>
                 </div>
                 <div className="col-4 d-flex align-items-center justify-content-end">
                     <div className="d-flex flex-column align-items-end">
-                        <h5 className="record-amount">$-1,000</h5>
+                        <h5 className="record-amount">₹-1,000</h5>
                         <small className="text-muted">dsd</small>
                     </div>
                 </div>

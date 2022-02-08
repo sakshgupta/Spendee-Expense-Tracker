@@ -65,7 +65,7 @@ function Revenue() {
                                         <h6 style={{ color: '#00C9A1' }}>Total revenue:</h6>
                                     </div>
                                     <div className="col-md-5 total-amount text-center ex-p">
-                                        $10,000
+                                        ₹10,000
                                     </div>
                                 </div>
                                 <div className="mb-2 mt-5 d-flex justify-content-center">

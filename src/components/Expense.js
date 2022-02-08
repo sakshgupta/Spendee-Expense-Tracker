@@ -21,7 +21,7 @@ function Expense() {
                         </div>
                         <div className="category-info col-10 row d-flex align-items-center">
                             <div className="col-12 col-sm-8 col-lg-8 col-xl-12" style={{ fontWeight: 500 }}>Home</div>
-                            <div className="col-12 col-sm-4 col-lg-4 col-xl-12">$0</div>
+                            <div className="col-12 col-sm-4 col-lg-4 col-xl-12">₹0</div>
                         </div>
                     </div>
                     <div className="category row mb-4 mx-auto">
@@ -31,7 +31,7 @@ function Expense() {
                         <div className="category-info col-10 row d-flex align-items-center">
                             <div className="col-12 col-sm-8 col-lg-8 col-xl-12" style={{ fontWeight: 500 }}>
                                 Transportation</div>
-                            <div className="col-12 col-sm-4 col-lg-4 col-xl-12">$0</div>
+                            <div className="col-12 col-sm-4 col-lg-4 col-xl-12">₹0</div>
                         </div>
                     </div>
                     <div className="category row mb-4 mx-auto">
@@ -41,7 +41,7 @@ function Expense() {
                         <div className="category-info col-10 row d-flex align-items-center">
                             <div className="col-12 col-sm-8 col-lg-8 col-xl-12" style={{ fontWeight: 500 }}>
                                 Entertainment</div>
-                            <div className="col-12 col-sm-4 col-lg-4 col-xl-12">$1000</div>
+                            <div className="col-12 col-sm-4 col-lg-4 col-xl-12">₹1000</div>
                         </div>
                     </div>
                     <div className="category row mb-4 mx-auto">
@@ -50,7 +50,7 @@ function Expense() {
                         </div>
                         <div className="category-info col-10 row d-flex align-items-center">
                             <div className="col-12 col-sm-8 col-lg-8 col-xl-12" style={{ fontWeight: 500 }}>Food</div>
-                            <div className="col-12 col-sm-4 col-lg-4 col-xl-12">$0</div>
+                            <div className="col-12 col-sm-4 col-lg-4 col-xl-12">₹0</div>
                         </div>
                     </div>
                     <div className="category row mb-4 mx-auto">
@@ -60,7 +60,7 @@ function Expense() {
                         <div className="category-info col-10 row d-flex align-items-center">
                             <div className="col-12 col-sm-8 col-lg-8 col-xl-12" style={{ fontWeight: 500 }}>Other
                             </div>
-                            <div className="col-12 col-sm-4 col-lg-4 col-xl-12">$0</div>
+                            <div className="col-12 col-sm-4 col-lg-4 col-xl-12">₹0</div>
                         </div>
                     </div>
                 </div>
