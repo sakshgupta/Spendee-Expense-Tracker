@@ -4,7 +4,7 @@ import Budget from "../components/Budget";
 import Record from "../components/Record";
 import Page from "../components/Page";
 import Expense from "../components/Expense";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Home() {
     const [sbar, setSidebar] = useState(false);
@@ -17,6 +17,7 @@ function Home() {
                     <div className="header__toggle">
                         <i className={sbar ? 'bx bx-x' : 'bx bx-menu'} id="header-toggle" onClick={showSidebar} />
                     </div>
+
                     <Link to="/profile" className="header__img">
                         <img src="assets/img/avatar_23.jpg" alt="" />
                     </Link>
@@ -49,6 +50,28 @@ function Home() {
                                     <i className="bx bx-group nav__icon" title="About Us" />
                                     <span className="nav__name">About Us</span>
                                 </Link>
+                                <div class="nav__link">
+                                    <i class="bx bx-star nav__icon" title="Streak" />
+                                    <span className="nav__name">
+                                    <div className="star-widget">
+                                        <input type="radio" name="rate" id="rate-5" />
+                                        <label htmlFor="rate-5" className="bx bx-star" />
+                                        <input type="radio" name="rate" id="rate-4" />
+                                        <label htmlFor="rate-4" className="bx bx-star" />
+                                        <input type="radio" name="rate" id="rate-3" />
+                                        <label htmlFor="rate-3" className="bx bx-star" />
+                                        <input type="radio" name="rate" id="rate-2" />
+                                        <label htmlFor="rate-2" className="bx bx-star" />
+                                        <input type="radio" name="rate" id="rate-1" />
+                                        <label htmlFor="rate-1" className="bx bx-star" />
+                                    </div>
+                                    </span>
+                                </div>
+                                {/* Heart */}
+                                <div class="heart_div nav__link">
+                                    <i class="bx bx-heart nav__icon" title="Streak" />
+                                    <span className="nav__name">Streak's On!!</span>
+                                </div>
                             </div>
                         </div>
                         <Link to="/login" className="nav__link">

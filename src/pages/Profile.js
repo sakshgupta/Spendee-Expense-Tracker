@@ -44,6 +44,28 @@ function Profile() {
                                 <i className="bx bx-group nav__icon" title="About Us" />
                                 <span className="nav__name">About Us</span>
                             </Link>
+                            <div class="nav__link">
+                                    <i class="bx bx-star nav__icon" title="Streak" />
+                                    <span className="nav__name">
+                                    <div className="star-widget">
+                                        <input type="radio" name="rate" id="rate-5" />
+                                        <label htmlFor="rate-5" className="bx bx-star" />
+                                        <input type="radio" name="rate" id="rate-4" />
+                                        <label htmlFor="rate-4" className="bx bx-star" />
+                                        <input type="radio" name="rate" id="rate-3" />
+                                        <label htmlFor="rate-3" className="bx bx-star" />
+                                        <input type="radio" name="rate" id="rate-2" />
+                                        <label htmlFor="rate-2" className="bx bx-star" />
+                                        <input type="radio" name="rate" id="rate-1" />
+                                        <label htmlFor="rate-1" className="bx bx-star" />
+                                    </div>
+                                    </span>
+                                </div>
+                            {/* Heart */}
+                            <div class="center-div nav__link">
+                                    <i class="bx bx-heart nav__icon" title="Streak" />
+                                    <span className="nav__name">Streak's On!!</span>
+                                </div>
                         </div>
                     </div>
                     <Link to="/login" className="nav__link">

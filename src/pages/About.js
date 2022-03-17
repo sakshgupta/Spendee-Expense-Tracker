@@ -44,6 +44,28 @@ function About() {
                                     <i className="bx bx-group nav__icon" title="About Us" />
                                     <span className="nav__name">About Us</span>
                                 </Link>
+                                <div class="nav__link">
+                                    <i class="bx bx-star nav__icon" title="Streak" />
+                                    <span className="nav__name">
+                                    <div className="star-widget">
+                                        <input type="radio" name="rate" id="rate-5" />
+                                        <label htmlFor="rate-5" className="bx bx-star" />
+                                        <input type="radio" name="rate" id="rate-4" />
+                                        <label htmlFor="rate-4" className="bx bx-star" />
+                                        <input type="radio" name="rate" id="rate-3" />
+                                        <label htmlFor="rate-3" className="bx bx-star" />
+                                        <input type="radio" name="rate" id="rate-2" />
+                                        <label htmlFor="rate-2" className="bx bx-star" />
+                                        <input type="radio" name="rate" id="rate-1" />
+                                        <label htmlFor="rate-1" className="bx bx-star" />
+                                    </div>
+                                    </span>
+                                </div>
+                                {/* Heart */}
+                                <div class="center-div nav__link">
+                                    <i class="bx bx-heart nav__icon" title="Streak" />
+                                    <span className="nav__name">Streak's On!!</span>
+                                </div>
                             </div>
                         </div>
                         <Link to="/login" className="nav__link">
@@ -55,13 +77,110 @@ function About() {
                 <main>
                     <div className="col-12" style={{ background: '#f6f6f6' }}>
                         <div className="row py-5">
-                            <div className="col-md-11 mx-auto" style={{ maxWidth: '880px' }}>
-                                <div className="mt-4 mb-3 mx-2 row">
-                                    <div className="col-md-3 text-center">
-                                        <h6 style={{ color: '#00C9A1' }}>Github ka link bhi dalana h idhar</h6>
+                            <div className="col-md-11 mx-auto" style={{ maxWidth: '1000px' }}>
+                                    <div className="col-md-5 text-center ex-p team">
+                                        About Us
                                     </div>
-                                    <div className="col-md-5 total-amount text-center ex-p">
-                                        Khud karle
+                                <div className="mt-4 mb-3 mx-2 row about">
+                                    <div className="profile-card">
+                                        <div className="img">
+                                            <img src="assets/img/man.jpg" alt="Profile" />
+                                        </div>
+                                        <div className="caption">
+                                            <h3>Pratyash Chaudhary</h3>
+                                            <p>Back End Developer</p>
+                                            <div className="social-links">
+                                                <a href="#">
+                                                    <i className="fab fa-linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <i className="fab fa-instagram" />
+                                                </a>
+                                                <a href="#">
+                                                    <i className="fab fa-twitter" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="profile-card">
+                                        <div className="img">
+                                            <img src="assets/img/man.jpg" alt="Profile" />
+                                        </div>
+                                        <div className="caption">
+                                            <h3>Naivaidya Yadav</h3>
+                                            <p>Back End Developer</p>
+                                            <div className="social-links">
+                                                <a href="#">
+                                                    <i className="fab fa-linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <i className="fab fa-instagram" />
+                                                </a>
+                                                <a href="#">
+                                                    <i className="fab fa-twitter" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="profile-card">
+                                        <div className="img">
+                                            <img src="assets/img/man.jpg" alt="Profile" />
+                                        </div>
+                                        <div className="caption">
+                                            <h3>Saksham Gupta</h3>
+                                            <p>Front End Developer</p>
+                                            <div className="social-links">
+                                                <a href="#">
+                                                    <i className="fab fa-linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <i className="fab fa-instagram" />
+                                                </a>
+                                                <a href="#">
+                                                    <i className="fab fa-twitter" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="profile-card">
+                                        <div className="img">
+                                            <img src="assets/img/man.jpg" alt="Profile" />
+                                        </div>
+                                        <div className="caption">
+                                            <h3>Srishti Saxena</h3>
+                                            <p>Front End Developer</p>
+                                            <div className="social-links">
+                                                <a href="#">
+                                                    <i className="fab fa-linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <i className="fab fa-instagram" />
+                                                </a>
+                                                <a href="#">
+                                                    <i className="fab fa-twitter" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="profile-card">
+                                        <div className="img">
+                                            <img src="assets/img/man.jpg" alt="Profile" />
+                                        </div>
+                                        <div className="caption">
+                                            <h3>Anushka Singh</h3>
+                                            <p>Front End Developer</p>
+                                            <div className="social-links">
+                                                <a href="#">
+                                                    <i className="fab fa-linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <i className="fab fa-instagram" />
+                                                </a>
+                                                <a href="#">
+                                                    <i className="fab fa-twitter" />
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
