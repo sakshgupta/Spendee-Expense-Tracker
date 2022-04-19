@@ -26,8 +26,8 @@ function Home() {
                     <nav className="nav">
                         <div>
                             <Link to="/" className="nav__logo">
-                                <img src="assets/img/pie-chart-logo.png" alt="Logo" className="nav__logo-icon" />
-                                <span className="nav__logo-name">Spendee</span>
+                                <img src="assets/img/favicon_io/android-chrome-192x192.png" alt="Logo" className="nav__logo-icon" />
+                                <span className="nav__logo-name">Fudget</span>
                             </Link>
                             <div className="nav__list">
                                 <Link to="/" className="nav__link active-nav">

@@ -8,6 +8,7 @@ import Add_Revenue from "./Add_Revenue"
 import About from "./About";
 import Profile from "./Profile";
 import Login from "./Login";
+import Register from "./Register";
 import History from "./History";
 
 function RouterPage() {
@@ -22,6 +23,7 @@ function RouterPage() {
                 <Route path="/about" exact component={About}/>
                 <Route path="/profile" exact component={Profile}/>
                 <Route path="/login" exact component={Login}/>
+                <Route path="/register" exact component={Register}/>
                 <Route path="/history" exact component={History}/>
             </Switch>
         </Router>

@@ -31,7 +31,7 @@ function Budget() {
                     <div className="col-auto col-sm-12 d-flex flex-column justify-content-center align-items-center">
                         <div className="d-flex align-items-center">
                             <i className="fas fa-rupee-sign fa-xs mr-1" />
-                            <span style={{ fontWeight: 500 }}>Gareeb</span>
+                            <span style={{ fontWeight: 500 }}>10000</span>
                         </div>
                         <div>
                             <span style={{ fontSize: '0.9rem', fontWeight: 500, color: '#6ad6ff' }}>

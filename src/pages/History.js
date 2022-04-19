@@ -34,8 +34,8 @@ function History() {
                 <nav className="nav">
                     <div>
                         <Link to="/" className="nav__logo">
-                            <img src="../assets/img/pie-chart-logo.png" alt="Logo" className="nav__logo-icon" onClick={refreshPage} />
-                            <span className="nav__logo-name">Spendee</span>
+                        <img src="assets/img/favicon_io/android-chrome-192x192.png" alt="Logo" className="nav__logo-icon" />
+                                <span className="nav__logo-name">Fudget</span>
                         </Link>
                         <div className="nav__list">
                             <Link to="/" className="nav__link">
@@ -76,7 +76,7 @@ function History() {
                                     </span>
                                 </div>
                             {/* Heart */}
-                            <div class="center-div nav__link">
+                            <div class="heart_div nav__link">
                                     <i class="bx bx-heart nav__icon" title="Streak" />
                                     <span className="nav__name">Streak's On!!</span>
                                 </div>
