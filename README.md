@@ -6,10 +6,12 @@
   <br></br>
   <br></br>
 </div>
+This project just includes the frontend part of the website
 
 # Spendee
 
 The aim of this project was to organise and keep track of expenses and incoming money within an small organisation or for personal purpose.
+
 
 <img src="./public/assets/img/Home.png">
 <br></br>
@@ -21,8 +23,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-## 🏗️ Still under development
 
 <br></br>
 <p align='center'><b>Made with ❤ by Saksham Gupta</b></p>
