@@ -10,7 +10,7 @@ This project just includes the frontend part of the website
 
 # Spendee
 
-The aim of this project was to organise and keep track of expenses and incoming money within an small organisation or for personal purpose.
+The aim of this project was to create a frontend for a expense tracker app which can organise and keep track of expenses and incoming money within an small organisation or for personal purpose.
 
 
 <img src="./public/assets/img/Home.png">
